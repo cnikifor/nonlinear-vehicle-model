@@ -43,3 +43,9 @@ For the program to run, the following libraries/sub-packages need to be imported
 * Similarly, the parameters of the vehicle design can be determined within the VehicleModel class, such as the vehicle's mass, yaw moment of inertia, CG location, and trackwidth. 
 * After constructing the tire and vehicle models, the PhasePortrait script solves the equations of motion of the vehicle model thus generating various trajectories of the system in its phase space. These phase portraits also include the equilibirum points of the system along with their stabiility classification
 * The BifurcationDiagrams script plots the fixed points of the system as the vehicle vellocity or the front steering angle increase. These diagrams showcase bifurcation behaviors of the system, which can help understand stability behavior and handling. 
+
+The results will look like:
+
+![Figure_2](https://github.com/cnikifor/nonlinear-vehicle-model/assets/115878901/dcac5d3a-7214-4379-89eb-ecc44cf06f70)
+
+![Figure_1](https://github.com/cnikifor/nonlinear-vehicle-model/assets/115878901/c00f7788-0d7e-4277-b474-369c8f572367)
